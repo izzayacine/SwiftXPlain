@@ -1,0 +1,22 @@
+model:
+  onnx_path: /home/users/nus/dcsv206/swiftxp/benchmarks/onnx/mnist/MNIST_dense.onnx
+data:
+  dataset: MNIST
+  start: 0
+  end: 1
+  std: [1.]
+  mean: [0.]
+specification:
+  epsilon: 0.15
+  norm: .inf
+attack:
+  #pgd_order: skip
+  pgd_restarts: 100
+solver:
+  batch_size: 300
+  beta-crown:
+    iteration: 20
+bab:
+  timeout: 60
+  branching:
+    reduceop: max
