@@ -2,7 +2,7 @@
 
 This repository provides an implementation of several algorithms for computing 
 distance-restricted 𝜖<sub>∞</sub>-ball abductive explanations (AXp), contrastive explanations (CXp), smallest constrstive explanations 
-or for listing partial and complete for deep neural networks (DNNs).
+or for listing partial/complete explanations for deep neural networks (DNNs).
 
 ## 🚀 Running the Tool
 
